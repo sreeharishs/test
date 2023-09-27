@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: json
+    database: NDP_EDW
+    schema: EDW
+    tables:
+      - name : hip_hop_artists

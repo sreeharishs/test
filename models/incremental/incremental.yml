@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: incremental
+    database: NDP_EDW
+    schema: EDW
+    tables:
+     - name: source_table
+       identifier: source_table
+          
